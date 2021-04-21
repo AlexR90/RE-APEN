@@ -1,0 +1,123 @@
+.Slogan{
+    margin: 0;
+    height: 400px;
+    background-image: url(slogan1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 45px;
+    cursor: pointer;
+    border-top:  1px solid #ECF0F1;
+}
+@media screen and (max-width:800px){
+    .Slogan{
+      margin-top: 40px;
+     font-size: 25px;
+      height: 200px;
+      border-bottom:  1px solid #010f13;
+    }
+  }
+  .tituloingenieria{
+    width: 80%;
+    margin: auto;
+    max-width: 1300px;
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    border-bottom: solid 1px gray;
+    padding-bottom: 35px;
+  }
+  .tituloingenieria a{
+    background: #dd0a35;
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+  }
+  .titulosemestre{
+    width: 80%;
+    margin: auto;
+    max-width: 1300px;
+   padding-top: 35px;
+    
+  }
+  .titulosemestre a{
+    background: #0F2027;  /* fallback for old browsers */
+margin: auto;
+    font-size: 35px;
+    color: white;
+    padding-right: 7px;
+    padding-left: 7px;
+    border-radius: 7px;
+  }
+  .contenedorsemst{
+  
+    padding-top: 60px;
+    width: 80%;
+    max-width: 1300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+
+  }
+  .semestre{
+
+    background: black;
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all 0.25s;
+  }
+  .semestre a{
+    font-size: 25px;
+  }
+  .semestre:hover{
+    transform: scale(1.2);
+    color: black;
+    background-color: #28B463 ;
+  }
+  @media screen and (max-width:800px ){
+  .semestre{
+    height: 50px;
+    width: 50px;
+    background-color: teal;
+    ;
+  }
+  .semestre a{
+    font-size: 14px;
+  }
+  .tituloingenieria{
+    font-size: 25px;
+    
+  }
+  .tituloingenieria a{
+    padding-bottom: 4px;
+  }
+  .titulosemestre a{
+    font-size: 23px;
+    background: #00FF00;
+    color: black;
+  }
+  .titulosemestre{
+
+   text-align: center;
+  }
+  
+}
